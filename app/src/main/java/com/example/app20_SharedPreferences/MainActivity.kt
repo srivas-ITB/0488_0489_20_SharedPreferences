@@ -27,11 +27,6 @@ class MainActivity : ComponentActivity() {
         setContent {
             MyApp_Theme() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    //NavigationWrapper(modifier=Modifier)
-                    //Exemple1_sense_ViewModel(modifier=Modifier)
-                    //Exemple1_amb_State(modifier=Modifier)
-                    //Exemple1_amb_StateFlow(modifier = Modifier)
-                    //Exemple2_StudentScreen(modifier = Modifier)
                     NavigationWrapper_pokemon(modifier = Modifier.padding(innerPadding))
                 }
             }
@@ -39,7 +34,3 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-
-
-/// TODO
-/// Verificar que las 3 versions de pokemon es poden restaurar
